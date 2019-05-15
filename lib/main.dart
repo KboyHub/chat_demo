@@ -22,7 +22,7 @@ void main() {
       'app': (BuildContext context) =>new App(),
       '/friends': (_) => new WebviewScaffold(
         //webview插件
-        url: 'http://www.baidu.com',
+        url: 'https://flutter.dev',
         appBar: AppBar(
           title: Text('Flutter官网'),
         ),
