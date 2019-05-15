@@ -22,9 +22,6 @@ class _AppState extends State<App> {
   //我的界面
   Personal me;
 
-  //Test界面
-  Test test;
-
   currentPage(){
     switch(_currentIndex){
       case 0:
