@@ -9,10 +9,8 @@ class LoadingPage extends StatefulWidget {
 class _LoadingPageState extends State<LoadingPage> {
 
   @override
-  @override
   void initState() {
     super.initState();
-
     //在加载页面停留3秒
     new Future.delayed(Duration(seconds: 3),(){
       print('Flutter即时通讯app界面即将展示...');
